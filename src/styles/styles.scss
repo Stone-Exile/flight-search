@@ -1,0 +1,85 @@
+@use './vars' as *;
+@use './mixins' as *;
+
+@import url('../../node_modules/bootstrap/dist/css/bootstrap-reboot.min.css');
+@import url('../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css');
+
+:root {
+    --gap: 15px;
+    --primary-color: steelblue;
+    --primary-color-contrast: white;
+    --background-color: #f1f2f3;
+}
+
+.site-header {
+    padding: var(--gap);
+    background-color: var(--primary-color);
+    color: var(--primary-color-contrast)
+}
+
+.search-banner {
+    background-color: var(--background-color);
+    padding: calc(var(--gap) * 3) 0;
+}
+
+.search-details {
+    display: flex;
+    column-gap: var(--gap);
+
+    &.extra {
+        margin-top: var(--gap);
+    }
+
+    .search-box {
+        flex: 1;
+    }
+}
+
+.search-results {
+    display: flex;
+    flex-direction: column;
+    padding: calc(var(--gap) * 3) 0;
+    row-gap: var(--gap);
+    .flight {
+        border: 1px solid lightgray;
+        padding: calc(var(--gap) * 2);
+        display: grid;
+        grid-template-columns: minmax(64px, 1fr) 3fr 2fr 2fr minmax(64px, 1fr);
+        align-items: center;
+        column-gap: var(--gap);
+        cursor: pointer;
+
+        .flight-icon {
+            width: 64px;
+        }
+
+        .flight-details,  .flight-length {
+            display: flex;
+            flex-direction: column;
+
+            .flight-time {
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+
+            .flight-length-value {
+                font-size: 1.5rem;
+            }
+        }
+
+        .flight-price {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.buttons {
+    display: flex;
+    column-gap: var(--gap);
+}
+
+.form {
+    padding: var(--gap) 0;
+    row-gap: var(--gap);
+}

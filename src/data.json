@@ -1,0 +1,754 @@
+[
+    {
+        "price" : 800,
+        "departure" : "2023-02-11T22:00:00.000z",
+        "arrival" : "2023-02-12T11:15:00.000z",
+        "code" : "FL-001",
+        "from" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-11T22:00:00.000z",
+        "arrival" : "2023-02-12T11:15:00.000z",
+        "code" : "FL-002",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-12T17:00:00.000z",
+        "arrival" : "2023-02-12T18:30:00.000z",
+        "code" : "FL-003",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-12T17:00:00.000z",
+        "arrival" : "2023-02-12T18:30:00.000z",
+        "code" : "FL-004",
+        "from" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-12T13:00:00.000z",
+        "arrival" : "2023-02-12T17:15:00.000z",
+        "code" : "FL-005",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-12T13:00:00.000z",
+        "arrival" : "2023-02-12T17:15:00.000z",
+        "code" : "FL-006",
+        "from" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-12T22:00:00.000z",
+        "arrival" : "2023-02-13T11:15:00.000z",
+        "code" : "FL-001",
+        "from" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-12T22:00:00.000z",
+        "arrival" : "2023-02-13T11:15:00.000z",
+        "code" : "FL-002",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-13T17:00:00.000z",
+        "arrival" : "2023-02-13T18:30:00.000z",
+        "code" : "FL-003",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-13T17:00:00.000z",
+        "arrival" : "2023-02-13T18:30:00.000z",
+        "code" : "FL-004",
+        "from" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-13T13:00:00.000z",
+        "arrival" : "2023-02-13T17:15:00.000z",
+        "code" : "FL-005",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-13T13:00:00.000z",
+        "arrival" : "2023-02-13T17:15:00.000z",
+        "code" : "FL-006",
+        "from" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-13T22:00:00.000z",
+        "arrival" : "2023-02-14T11:15:00.000z",
+        "code" : "FL-001",
+        "from" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-13T22:00:00.000z",
+        "arrival" : "2023-02-14T11:15:00.000z",
+        "code" : "FL-002",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-14T17:00:00.000z",
+        "arrival" : "2023-02-14T18:30:00.000z",
+        "code" : "FL-003",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-14T17:00:00.000z",
+        "arrival" : "2023-02-14T18:30:00.000z",
+        "code" : "FL-004",
+        "from" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-14T13:00:00.000z",
+        "arrival" : "2023-02-14T17:15:00.000z",
+        "code" : "FL-005",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-14T13:00:00.000z",
+        "arrival" : "2023-02-14T17:15:00.000z",
+        "code" : "FL-006",
+        "from" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-14T22:00:00.000z",
+        "arrival" : "2023-02-15T11:15:00.000z",
+        "code" : "FL-001",
+        "from" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-14T22:00:00.000z",
+        "arrival" : "2023-02-15T11:15:00.000z",
+        "code" : "FL-002",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-15T17:00:00.000z",
+        "arrival" : "2023-02-15T18:30:00.000z",
+        "code" : "FL-003",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-15T17:00:00.000z",
+        "arrival" : "2023-02-15T18:30:00.000z",
+        "code" : "FL-004",
+        "from" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-15T13:00:00.000z",
+        "arrival" : "2023-02-15T17:15:00.000z",
+        "code" : "FL-005",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-15T13:00:00.000z",
+        "arrival" : "2023-02-15T17:15:00.000z",
+        "code" : "FL-006",
+        "from" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-15T22:00:00.000z",
+        "arrival" : "2023-02-16T11:15:00.000z",
+        "code" : "FL-001",
+        "from" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-15T22:00:00.000z",
+        "arrival" : "2023-02-16T11:15:00.000z",
+        "code" : "FL-002",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-16T17:00:00.000z",
+        "arrival" : "2023-02-16T18:30:00.000z",
+        "code" : "FL-003",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-16T17:00:00.000z",
+        "arrival" : "2023-02-16T18:30:00.000z",
+        "code" : "FL-004",
+        "from" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-16T13:00:00.000z",
+        "arrival" : "2023-02-16T17:15:00.000z",
+        "code" : "FL-005",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-16T13:00:00.000z",
+        "arrival" : "2023-02-16T17:15:00.000z",
+        "code" : "FL-006",
+        "from" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-16T22:00:00.000z",
+        "arrival" : "2023-02-17T11:15:00.000z",
+        "code" : "FL-001",
+        "from" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-16T22:00:00.000z",
+        "arrival" : "2023-02-17T11:15:00.000z",
+        "code" : "FL-002",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-17T17:00:00.000z",
+        "arrival" : "2023-02-17T18:30:00.000z",
+        "code" : "FL-003",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-17T17:00:00.000z",
+        "arrival" : "2023-02-17T18:30:00.000z",
+        "code" : "FL-004",
+        "from" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-17T13:00:00.000z",
+        "arrival" : "2023-02-17T17:15:00.000z",
+        "code" : "FL-005",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-17T13:00:00.000z",
+        "arrival" : "2023-02-17T17:15:00.000z",
+        "code" : "FL-006",
+        "from" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-17T22:00:00.000z",
+        "arrival" : "2023-02-18T11:15:00.000z",
+        "code" : "FL-001",
+        "from" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-17T22:00:00.000z",
+        "arrival" : "2023-02-18T11:15:00.000z",
+        "code" : "FL-002",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-18T17:00:00.000z",
+        "arrival" : "2023-02-18T18:30:00.000z",
+        "code" : "FL-003",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-18T17:00:00.000z",
+        "arrival" : "2023-02-18T18:30:00.000z",
+        "code" : "FL-004",
+        "from" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-18T13:00:00.000z",
+        "arrival" : "2023-02-18T17:15:00.000z",
+        "code" : "FL-005",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-18T13:00:00.000z",
+        "arrival" : "2023-02-18T17:15:00.000z",
+        "code" : "FL-006",
+        "from" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-18T22:00:00.000z",
+        "arrival" : "2023-02-19T11:15:00.000z",
+        "code" : "FL-001",
+        "from" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 800,
+        "departure" : "2023-02-18T22:00:00.000z",
+        "arrival" : "2023-02-19T11:15:00.000z",
+        "code" : "FL-002",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "JNB",
+            "city" : "Johannesburg, South Africa (OR Tambo)"
+        },
+        "airline" : "British Airways",
+        "icon": "/images/british-airways.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-19T17:00:00.000z",
+        "arrival" : "2023-02-19T18:30:00.000z",
+        "code" : "FL-003",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 120,
+        "departure" : "2023-02-19T17:00:00.000z",
+        "arrival" : "2023-02-19T18:30:00.000z",
+        "code" : "FL-004",
+        "from" : {
+            "code" : "BER",
+            "city" : "Berlin, Germany (Brandenburg)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Lufthansa",
+        "icon": "/images/lufthansa.png"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-19T13:00:00.000z",
+        "arrival" : "2023-02-19T17:15:00.000z",
+        "code" : "FL-005",
+        "from" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "to" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "airline" : "Brussels Airlines"
+    },
+    {
+        "price" : 140,
+        "departure" : "2023-02-19T13:00:00.000z",
+        "arrival" : "2023-02-19T17:15:00.000z",
+        "code" : "FL-006",
+        "from" : {
+            "code" : "BRU",
+            "city" : "Brussels, Belgium (Brussels)"
+        },
+        "to" : {
+            "code" : "AMS",
+            "city" : "Amsterdam, Netherlands (Schiphol)"
+        },
+        "airline" : "Brussels Airlines"
+    }
+]
